@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///dailyhub?useSSL=false&characterEncoding=UTF8
+    username: root
+    password:
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  freemarker:
+    suffix: .ftl
+    settings:
+      classic_compatible: true #????
