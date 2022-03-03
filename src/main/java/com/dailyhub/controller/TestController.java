@@ -15,7 +15,7 @@ public class TestController {
 
     @GetMapping("/test")
     public String hello(HttpServletRequest request) {
-        User user = userRepository.getById(1L);
+        User user = userRepository.getById(2L);
         request.setAttribute("username", user.getUsername());
         return "test";
     }
