@@ -13,3 +13,10 @@ spring:
     suffix: .ftl
     settings:
       classic_compatible: true #????
+  redis:
+    database: 0
+    port: 6379
+wechat:
+  mpAppId:
+  mpAppSecret:
+  token:
